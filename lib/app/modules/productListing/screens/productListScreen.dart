@@ -58,7 +58,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
         ),
         centerTitle: false,
         elevation: 0,
-        actions: [IconButton(icon: Icon(Icons.search), onPressed: () {})],
+        // actions: [IconButton(icon: Icon(Icons.search), onPressed: () {})],
       ),
       body: Consumer<ProductProvider>(
         builder: (context, provider, _) {
